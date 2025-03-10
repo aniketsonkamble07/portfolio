@@ -1,0 +1,72 @@
+/* Section Container */
+.connect-container {
+    background: linear-gradient(135deg, #1f1f1f, #292929);
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Title */
+  .connect-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00a2ff;
+    text-shadow: 0 0 10px rgba(0, 162, 255, 0.8);
+    margin-bottom: 1rem;
+  }
+  
+  /* Description */
+  .connect-description {
+    font-size: 1.3rem;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    color: #ddd;
+    line-height: 1.6;
+  }
+  
+  /* Links Container */
+  .connect-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Connect Cards */
+  .connect-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 15px 30px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Icon Styling */
+  .connect-card .icon {
+    font-size: 1.8rem;
+    color: #00a2ff;
+  }
+  
+  /* Hover Effects */
+  .connect-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 162, 255, 0.6);
+    background: rgba(0, 162, 255, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .connect-card {
+      width: 80%;
+      justify-content: center;
+    }
+  }
+  
